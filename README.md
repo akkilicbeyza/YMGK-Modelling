@@ -2,71 +2,87 @@ YMGK-Modelling
 
 Yazılım Mühendisliği Gündüz A grubu Modelleme Çalışması
 ***
-# Fizibilite Raporu: Kırılgan Beşli Ülkelerinin Menkul Kıymet Borsalarının Kaotik Yapısının İncelenmesi
+# Fizibilite Raporu: Çift Kuyruk Haritasının Kaotik Yapısının İncelenmesi(Lotka Volterra Modeli)
 
 1. Giriş
 
-   Bu fizibilite raporu, Kırılgan Beşli olarak bilinen Brezilya, Endonezya, Hindistan, Türkiye ve Güney Afrika'nın menkul kıymet borsalarının kaotik analizlerle incelenmesinin uygulanabilirliğini değerlendirmektedir. Makalenin tartışma ve sonuç bölümünde sunulan bulgular,    kaotik analizlerin bu borsaların davranışlarını açıklamada etkili bir alternatif olabileceğini öne sürmektedir. Bu rapor, bu öneriyi değerlendirmek ve uygulamak için adımları ve stratejileri açıklamaktadır.
+   Bu fizibilite raporu, çift kuyruklu harita (double pendulum) sisteminin dinamiklerini incelemeyi amaçlamaktadır. Çift kuyruklu harita, basit bir kuyruklu haritanın iki katmanlı genişlemesi olarak tanımlanır ve karmaşık ve kaotik davranışlar sergileyebilir. Bu rapor, çift kuyruklu harita sisteminin analiz edilmesinin önemini ve potansiyel uygulama alanlarını ele almaktadır.
 
-2. Amaç
 
-    Bu fizibilite raporunun amacı, Kırılgan Beşli ülkelerinin menkul kıymet borsalarının kaotik analizlerle incelenmesinin uygulanabilirliğini belirlemektir. Bu analizlerin, borsaların karmaşık yapılarını anlamak ve gelecekteki fiyat hareketlerini öngörmek için nasıl       kullanılabileceğini araştırmaktadır.
+2. Amaç ve Hedefler
 
-3. Yöntem
+    Bu analizin ana hedefleri şunlardır:
 
-   Kaotik analizlerin uygulanabilirliğini değerlendirmek için aşağıdaki adımlar izlenecektir:
+     - Çift kuyruklu harita sisteminin dinamiklerini anlamak ve kaotik davranışlarını incelemek.
+    
+     - Sistemdeki belirli parametrelerin değişimiyle nasıl davranış değişiklikleri meydana geldiğini belirlemek.
+    
+     - Çift kuyruklu harita sisteminin uygulama alanlarını değerlendirmek ve potansiyel kullanımları üzerine öneriler sunmak.
 
-    Veri Toplama: Brezilya, Endonezya, Hindistan, Türkiye ve Güney Afrika'nın menkul kıymet borsalarının günlük kapanış değerlerini kapsayan veri setleri toplanacaktır.
 
-    Korelasyon Boyutu Analizi: Kaotik davranışın bir ölçütü olan korelasyon boyutu analizi yapılacaktır. Bu analiz, borsaların fraktal boyutunu ve karmaşıklık düzeyini belirlemeye yardımcı olacaktır.
+3. Analiz Yöntemi
 
-    En Büyük Lyapunov Üsteli Analizi: Kaotik yapının hassasiyetini ölçmek için en büyük Lyapunov üsteli analizi yapılacaktır. Bu analiz, sistemin kaotik doğasını belirlemeye ve kaotik davranışın derecesini değerlendirmeye yardımcı olacaktır.
-
-4. Bulgular ve Analiz
+   Çift kuyruklu harita analizi için izlenecek adımlar şunlardır:
    
-    Makalede sunulan bulgular, Kırılgan Beşli ülkelerinin menkul kıymet borsalarının kaotik davranışlar sergilediğini ve bu davranışların deterministik olduğunu göstermektedir. Korelasyon boyutu analizi ve en büyük Lyapunov üsteli analizi, bu borsaların karmaşık yapılarını ve kaotik doğasını açıkça ortaya koymaktadır.
+     - Matematiksel modelin tanımlanması: Sistemin Lagrange ya da Hamilton mekaniği ile tanımlanan hareket denklemlerinin belirlenmesi.
+     - Başlangıç koşullarının belirlenmesi: Sistemin başlangıç açıları ve açısal hızları gibi başlangıç koşullarının seçilmesi.
+     - Nümerik simülasyonların yapılması: Bilgisayar programları aracılığıyla çift kuyruklu harita sisteminin hareketinin simüle edilmesi.
+     - Sonuçların analizi: Simülasyon sonuçlarının incelenmesi ve sistemin davranışındaki değişikliklerin anlaşılması.
 
-5. Sonuç ve Öneriler
+4. Analiz Sonuçları
    
-    Bu fizibilite raporu, Kırılgan Beşli ülkelerinin menkul kıymet borsalarının kaotik analizlerle incelenmesinin uygulanabilir olduğunu göstermektedir. Bu analizler, borsaların davranışlarını anlamak, riskleri değerlendirmek ve gelecekteki fiyat hareketlerini tahmin etmek için potansiyel bir araç olarak kullanılabilir. Önerilen adımların ve stratejilerin uygulanmasıyla, bu ülkelerin yatırımcıları ve analistleri için daha iyi kararlar almak mümkün olabilir.
+   Çift kuyruklu harita analizi sonuçlarına dayanarak şu bulgular elde edilmiştir:
 
+     - Başlangıç koşullarına bağlı olarak, sistemin davranışında büyük değişiklikler gözlemlenmektedir.
+     - Belirli parametre değerlerinde sistem kaotik davranışlar sergilemektedir.
+     - Sistemin dinamiklerindeki karmaşıklık, enerji transferi ve açısal momentumun etkileşimiyle ilişkilendirilmiştir.
 
-![1](https://github.com/akkilicbeyza/YMGK-Modelling/assets/81364306/234f3943-4a66-4216-8a70-37d258ab94b3)
+5. Öneriler
 
-![2](https://github.com/akkilicbeyza/YMGK-Modelling/assets/81364306/ce97c237-f2f5-4d25-ba72-ad83defec893)
+  - Çift kuyruklu harita sistemi üzerine daha kapsamlı analizler yapılabilir, özellikle de başlangıç koşullarının ve parametrelerin etkisinin daha detaylı incelendiği çalışmalar yapılabilir.
+  - Sistemdeki belirli parametrelerin değerlerinin değiştirilmesinin, sistemin davranışı üzerindeki etkileri daha detaylı bir şekilde araştırılabilir.
+
+6. Sonuç
+
+   Çift kuyruklu harita sistemi, dinamik sistemlerin ve kaotik davranışların anlaşılması için önemli bir modeldir. Bu rapor, sistemin analizini ve potansiyel uygulamalarını ele almıştır. Gelecekteki çalışmalar,      sistemin daha derinlemesine anlaşılması ve kullanımının genişletilmesi için yapılabilir.   
+
+![600px-Lotka-Volterra_model_(1 1,_0 4,_0 4,_0 1) svg](https://github.com/akkilicbeyza/YMGK-Modelling/assets/81364306/daf79a13-f4e2-462b-8f73-dfb7a963b3f5)
+
+![450px-Predator_prey_dynamics svg](https://github.com/akkilicbeyza/YMGK-Modelling/assets/81364306/797e4077-f8db-4b42-9708-b56eff04cf47)
 
 6. Kaynak ve Referanslar
    
-     https://dergipark.org.tr/en/pub/gaziuiibfd/issue/36809/419422
+     https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations
 #
-Bu fizibilite raporu, kaotik analizlerin Kırılgan Beşli ülkelerinin menkul kıymet borsaları için uygulanabilirliğini değerlendirmekte ve bu analizlerin kullanımının potansiyel faydalarını vurgulamaktadır.
 ***
-# SWOT Analizi
+# SWOT Analizi: Çift Kuyruklu Harita Analizi
 
 A) Güçlü Yönler
 
-1. Bilimsel Temellere Dayanıyor: Kaotik analizler, bilimsel bir temele dayanarak karmaşık sistemlerin davranışlarını anlamak için kullanılan güçlü bir araçtır.
-2. Potansiyel Öngörü Yeteneği: Kaotik analizler, borsaların gelecekteki fiyat hareketlerini tahmin etme yeteneği açısından potansiyel bir değere sahiptir.
-3. Kırılgan Beşli Ülkeleri İçin Özelleştirilmiş: Bu analiz, Kırılgan Beşli ülkelerinin menkul kıymet borsaları için özelleştirilmiş bir yaklaşım sunar, bu da bu ülkelerin ekonomik özelliklerini dikkate alır.
+1. Karmaşık davranışları modelleme yeteneği: Çift kuyruklu harita, karmaşık ve kaotik davranışları modelleme ve analiz etme yeteneğiyle güçlü bir araçtır.
+2. Fiziksel sistemlerin analizi için uygunluk: Mühendislik ve fizik gibi alanlarda, çift kuyruklu harita sistemleri gerçek dünya problemlerini modelleme ve analiz etme konusunda etkilidir.
+3. Bilgisayar simülasyonlarıyla çalışma imkanı: Çift kuyruklu harita sistemleri, bilgisayar simülasyonları aracılığıyla kolayca çalışılabilir ve davranışlarının incelenmesine olanak tanır.
+
 
 B) Zayıf Yönler
 
-1. Doğru Veri ve Parametrelerin Belirlenmesi: Kaotik analizlerin etkili bir şekilde uygulanması için doğru veri ve parametrelerin belirlenmesi zor olabilir.
-2. Geçmişe Bağımlılık: Analizler, geçmiş verilere dayandığı için gelecekteki tüm olası senaryoları hesaba katamayabilir.
-3. Karmaşık Matematiksel Modeller: Kaotik analizler, karmaşık matematiksel modeller gerektirebilir ve analiz edilmesi zaman alabilir.
+1. Hassas başlangıç koşulları gereksinimi: Çift kuyruklu harita sistemlerinin analizi, hassas başlangıç koşullarının belirlenmesini gerektirir. Bu başlangıç koşullarının doğru belirlenmesi ve manipülasyonu zor olabilir.
+2. Analiz ve yorumlama karmaşıklığı: Sistemdeki karmaşık davranışların analizi ve yorumlanması bazen zor olabilir, özellikle de parametrelerin etkileşimi ve değişimi göz önüne alındığında.
+3. Uygulama kısıtlamaları: Bazı gerçek dünya sistemlerinin çift kuyruklu harita modeline uygun olmayabileceği ve sınırlamalar getirebileceği unutulmamalıdır.
+
 
 C) Fırsatlar
 
-1. Yatırımcıların ve Analistlerin Bilgi ve Karar Alma Sürecini İyileştirebilir: Doğru şekilde uygulandığında, kaotik analizler yatırımcıların ve analistlerin daha iyi kararlar almasına ve riskleri daha iyi değerlendirmesine olanak sağlayabilir.
-2. Yeni Piyasa Trendlerini Belirleme Yeteneği: Kaotik analizler, yeni piyasa trendlerini belirleme yeteneği ile rekabet avantajı sağlayabilir.
-3. Yatırım Stratejilerini Geliştirmek: Bu analizler, yatırım stratejilerini geliştirmek ve optimize etmek için kullanılabilir.
+1. Mühendislik ve fizik alanlarında kullanım potansiyeli: Çift kuyruklu harita analizi, mühendislik tasarımında ve fiziksel sistemlerin analizinde kullanılabilir ve bu alanlarda çeşitli fırsatlar sunar.
+2. Karmaşık sistemlerin anlaşılması: Karmaşık ve kaotik sistemlerin davranışlarını modelleme ve analiz etme yeteneği, bilim insanlarına ve mühendislere bu sistemleri daha iyi anlama ve kontrol etme fırsatı sunar.
+3. İnovasyon ve keşif fırsatları: Çift kuyruklu harita analizi, yeni keşiflere ve inovatif çözümlere yol açabilecek bir araştırma alanıdır.
+
 
 D) Tehditler
 
-1. Doğru Analiz Edilmediğinde Yanıltıcı Olabilir: Yanlış parametrelerle veya yanlış şekilde uygulandığında, kaotik analizler yanıltıcı olabilir ve yanlış kararlar alınmasına neden olabilir.
-2. Piyasa Dalgalanmaları ve Belirsizlik: Piyasa dalgalanmaları ve belirsizlik, analizlerin doğruluğunu etkileyebilir ve tahminlerin yanılmasına neden olabilir.
-3. Rekabet ve Teknolojik Gelişmeler: Rekabetin artması ve teknolojik gelişmeler, bu analizlerin etkinliğini ve rekabetçiliğini etkileyebilir.
+1. Veri ve parametre belirsizliği: Gerçek dünya sistemlerinin modellenmesi ve analizinde, veri eksikliği ve parametre belirsizliği gibi faktörler tehdit oluşturabilir.
+2. Rekabet ve diğer analiz yöntemleri: Diğer analiz yöntemlerinin ve modelleme tekniklerinin kullanılabilirliği, çift kuyruklu harita analizinin benimsenmesini ve uygulanmasını olumsuz etkileyebilir.
+3. Teknolojik ve bilimsel ilerleme: Teknolojik ve bilimsel ilerlemeler, mevcut çift kuyruklu harita analiz yöntemlerini eski ve geçersiz hale getirebilir, bu da bir tehdit oluşturabilir.
 
 #
-SWOT analizi, kaotik analizlerin Kırılgan Beşli ülkelerinin menkul kıymet borsaları için uygulanabilirliğini daha iyi anlamamıza yardımcı olur ve bu analizlerin güçlü yönlerini ve zayıf yönlerini vurgular.
-***
+
